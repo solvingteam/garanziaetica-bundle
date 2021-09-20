@@ -1,4 +1,4 @@
-image: solvingteam/garanziaetica:0.0.2-SNAPSHOT
+image: solvingteam/garanziaetica:0.0.3-SNAPSHOT
 dbms: postgresql
 healthCheckPath: "/management/health"
 roles:
