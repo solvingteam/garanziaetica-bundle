@@ -1,6 +1,6 @@
-image: solvingteam/garanziaetica:0.0.3-SNAPSHOT
+image: solvingteam/garanziaetica:0.0.8-SNAPSHOT
 dbms: postgresql
-healthCheckPath: "/management/health"
+healthCheckPath: "/actuator/health"
 roles:
   - "garanziaetica-admin"
 # entando-needle-descriptor-add-roles - Entando blueprint will add roles here
